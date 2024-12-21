@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>إديوويب - أفضل برنامج للتعلم عبر الإنترنت</title>
+  <meta name="title" content="إديوويب - أفضل برنامج للتعلم عبر الإنترنت">
+  <meta name="description" content="قالب تعليمي مميز لتقديم الدورات والمقالات التعليمية">
+
+  <!-- 
+    - أيقونة الموقع
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - رابط CSS المخصص
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - خطوط جوجل
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - تحميل الصور مسبقًا
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - الرأس (Header)
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="162" height="50" alt="شعار إديوويب">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="162" height="50" alt="شعار إديوويب">
+          </a>
+
+          <button class="nav-close-btn" aria-label="إغلاق القائمة" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>الرئيسية</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link" data-nav-link>من نحن</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="courses.html" class="navbar-link" data-nav-link>الدورات</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>المدونة</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>تواصل معنا</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="فتح القائمة" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <!-- 
+    - المحتوى الرئيسي
+  -->
+  <main>
+    <article>
+
+      <section class="section blog has-bg-image" id="blog" aria-label="المدونة"
+        style="background-image: url('./assets/images/blog-bg.svg')">
+        <div class="container">
+
+          <p class="section-subtitle">أحدث المقالات</p>
+
+          <h2 class="h2 section-title">تعرف على الجديد مع إديوويب</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-1.jpg" width="370" height="370" loading="lazy"
+                    alt="كن مدونًا أفضل: تخطيط المحتوى" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="اقرأ المزيد">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">عبر الإنترنت</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">كن مدونًا أفضل: تخطيط المحتوى</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">10 أكتوبر 2021</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">09 تعليقات</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    نص وهمي يستخدم لتوضيح التصميم.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-2.jpg" width="370" height="370" loading="lazy"
+                    alt="كيف تخطط محتوى مدونتك؟" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="اقرأ المزيد">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">عبر الإنترنت</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">كيف تخطط محتوى مدونتك؟</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">15 أكتوبر 2021</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">12 تعليقات</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    نص افتراضي يستخدم لملء المساحات في التصميم.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;">
+                  <img src="./assets/images/blog-3.jpg" width="370" height="370" loading="lazy"
+                    alt="أفضل النصائح لتحسين الكتابة" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <a href="#" class="card-btn" aria-label="اقرأ المزيد">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="#" class="card-subtitle">عبر الإنترنت</a>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">أفضل النصائح لتحسين الكتابة</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">20 أكتوبر 2021</span>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">15 تعليقات</span>
+                    </li>
+
+                  </ul>
+
+                  <p class="card-text">
+                    نص افتراضي يستخدم لملء المساحات في التصميم.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/blog-shape.png" width="186" height="186" loading="lazy" alt=""
+            class="shape blog-shape">
+
+        </div>
+      </section>
+
+    </article>
+  </main> 
+  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+</button>
+</form>
+
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - رابط أيقونات Ionicons
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

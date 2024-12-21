@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- معلومات الميتا الأساسية -->
+  <title>EduWeb - أفضل برنامج للتسجيل للتبادل الثقافي</title>
+  <meta name="title" content="EduWeb - أفضل برنامج للتسجيل للتبادل الثقافي">
+  <meta name="description" content="هذا قالب HTML تعليمي تم إنشاؤه بواسطة codewithsadee">
+
+  <!-- الأيقونة -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- رابط ملف CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- رابط خطوط جوجل -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- تحميل مسبق للصور -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+</head>
+
+<body id="top">
+
+  <!-- الرأس -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="162" height="50" alt="شعار EduWeb">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="162" height="50" alt="شعار EduWeb">
+          </a>
+          <button class="nav-close-btn" aria-label="إغلاق القائمة" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="index.html" class="navbar-link" data-nav-link>الرئيسية</a></li>
+          <li class="navbar-item"><a href="about.html" class="navbar-link" data-nav-link>من نحن</a></li>
+          <li class="navbar-item"><a href="courses.html" class="navbar-link" data-nav-link>الدورات</a></li>
+          <li class="navbar-item"><a href="blog.html" class="navbar-link" data-nav-link>المدونة</a></li>
+          <li class="navbar-item"><a href="cc.html" class="navbar-link" data-nav-link>اتصل بنا</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="فتح القائمة" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <section class="section course" id="courses" aria-label="الدورات">
+        <div class="container">
+          <p class="section-subtitle">الدورات الأكثر شهرة</p>
+          <h2 class="h2 section-title">اختر دورة لتبدأ</h2>
+
+          <ul class="grid-list">
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-1.jpg" width="370" height="220" loading="lazy" alt="تصميم مواقع ويب استجابة باستخدام HTML وCSS" class="img-cover">
+                </figure>
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">3 أسابيع</span>
+                </div>
+                <div class="card-content">
+                  <span class="badge">مبتدئ</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">تصميم مواقع ويب استجابة باستخدام HTML وCSS</a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="rating-text">(5.0/7 تقييم)</p>
+                  </div>
+                  <data class="price" value="29">مجاني</data>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-2.jpg" width="370" height="220" loading="lazy" alt="دورة البرمجة بلغة Java للمطورين" class="img-cover">
+                </figure>
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">8 أسابيع</span>
+                </div>
+                <div class="card-content">
+                  <span class="badge">متقدم</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">دورة البرمجة بلغة Java للمطورين</a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="rating-text">(4.5/9 تقييم)</p>
+                  </div>
+                  <data class="price" value="0">مجاني</data>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">15 دروس</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">35 طالب</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/course-3.jpg" width="370" height="220" loading="lazy" alt="دورة Camtasia الكاملة لصانعي المحتوى" class="img-cover">
+                </figure>
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">3 أسابيع</span>
+                </div>
+                <div class="card-content">
+                  <span class="badge">متوسط</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">دورة Camtasia الكاملة لصانعي المحتوى</a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p class="rating-text">(4.9/7 تقييم)</p>
+                  </div>
+                  <data class="price" value="0">مجاني</data>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">13 درس</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">18 طالب</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#" class="btn has-before">
+            <span class="span">استعرض المزيد من الدورات</span>
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+</button>
+</form>
+  <script src="./assets/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ 
+</body>
+
+</html>
